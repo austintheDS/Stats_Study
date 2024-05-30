@@ -1,0 +1,6 @@
+from scipy import stats
+stats.binom.cdf(10,200,0.04) # n=200, p=0.04인 이항분포에서 x가 10 이하일 확률
+
+
+from scipy import stats
+stats.poisson.cdf(10,8) # 평균이 8인 포아송분포에서 x가 10 이하일 확률
